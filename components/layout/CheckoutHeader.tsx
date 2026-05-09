@@ -12,7 +12,7 @@ export function CheckoutHeader() {
           aria-label="The Phone House UK - Home"
         >
           <Image
-            src="/logo1.svg"
+            src="/logo3.png"
             alt="The Phone House UK"
             width={220}
             height={60}

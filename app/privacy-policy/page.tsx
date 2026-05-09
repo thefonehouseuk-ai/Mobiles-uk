@@ -162,7 +162,7 @@ export default function PrivacyPolicyPage() {
                   href="https://ico.org.uk"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-medium text-[var(--color-brand-pink)] hover:underline"
+                  className="font-medium text-[var(--color-brand-blue)] hover:underline"
                 >
                   ico.org.uk
                 </a>

@@ -68,7 +68,7 @@ export function PhoneModelCombobox({
             "min-h-12 w-full rounded-xl border bg-white py-3 pl-4 pr-11 text-base text-slate-900 outline-none ring-0 transition-[border,box-shadow] placeholder:text-slate-400 sm:min-h-0 sm:text-sm",
             error
               ? "border-rose-400 focus:border-rose-500"
-              : "border-slate-300 focus:border-[var(--color-brand-pink)] focus:shadow-[0_0_0_3px_rgba(228,0,127,0.18)]",
+              : "border-slate-300 focus:border-[var(--color-brand-blue)] focus:shadow-[0_0_0_3px_rgba(228,0,127,0.18)]",
           )}
           placeholder="Search e.g. iPhone 15, Galaxy S24…"
           value={query}
@@ -109,7 +109,7 @@ export function PhoneModelCombobox({
                   type="button"
                   role="option"
                   aria-selected={value.trim().toLowerCase() === query.trim().toLowerCase()}
-                  className="flex w-full border-b border-slate-100 px-3 py-2.5 text-left text-sm font-medium text-[var(--color-brand-pink)] hover:bg-pink-50"
+                  className="flex w-full border-b border-slate-100 px-3 py-2.5 text-left text-sm font-medium text-[var(--color-brand-blue)] hover:bg-sky-50"
                   onMouseDown={(e) => e.preventDefault()}
                   onClick={() => {
                     const selected = query.trim();

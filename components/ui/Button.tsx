@@ -19,13 +19,13 @@ export function Button({
   ...props
 }: Props) {
   const base =
-    "relative inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3.5 text-sm font-semibold tracking-tight shadow-sm transition-shadow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-brand-pink)] disabled:pointer-events-none disabled:opacity-50";
+    "relative inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3.5 text-sm font-semibold tracking-tight shadow-sm transition-shadow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-brand-blue)] disabled:pointer-events-none disabled:opacity-50";
 
   const styles = {
     primary:
-      "bg-[var(--color-brand-pink)] text-white hover:bg-[var(--color-brand-pink-hover)] hover:shadow-md",
+      "bg-[var(--color-brand-blue)] text-white hover:bg-[var(--color-brand-blue-hover)] hover:shadow-md",
     inverse:
-      "border-0 bg-white text-[var(--color-brand-pink)] shadow-md hover:bg-white/95 hover:shadow-lg",
+      "border-0 bg-white text-[var(--color-brand-blue)] shadow-md hover:bg-white/95 hover:shadow-lg",
     ghost:
       "border border-slate-300 bg-white text-slate-800 shadow-none hover:border-slate-400 hover:bg-slate-50",
   }[variant];
@@ -46,7 +46,7 @@ export function Button({
             className={cn(
               "h-4 w-4 animate-spin rounded-full border-2",
               spinnerLight
-                ? "border-slate-300 border-t-[var(--color-brand-pink)]"
+                ? "border-slate-300 border-t-[var(--color-brand-blue)]"
                 : "border-white/50 border-t-white",
             )}
             aria-hidden

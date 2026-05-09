@@ -94,7 +94,7 @@ export function Testimonials() {
     <MotionSection className="mx-auto max-w-6xl px-3 py-10 sm:px-6 sm:py-12">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between sm:gap-6">
         <div className="mx-auto max-w-2xl text-center sm:mx-0 sm:max-w-xl sm:text-left">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-brand-pink)]">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-brand-blue)]">
             Testimonials
           </p>
           <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl md:text-4xl">
@@ -110,7 +110,7 @@ export function Testimonials() {
             onClick={() => scrollByDir(-1)}
             disabled={!canPrev}
             aria-label="Show previous testimonials"
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 shadow-sm transition hover:border-[var(--color-brand-pink)]/40 hover:bg-pink-50/80 hover:text-[var(--color-brand-pink)] disabled:pointer-events-none disabled:opacity-35"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 shadow-sm transition hover:border-[var(--color-brand-blue)]/40 hover:bg-sky-50/80 hover:text-[var(--color-brand-blue)] disabled:pointer-events-none disabled:opacity-35"
           >
             <ChevronLeft className="h-5 w-5" strokeWidth={2.25} aria-hidden />
           </button>
@@ -119,7 +119,7 @@ export function Testimonials() {
             onClick={() => scrollByDir(1)}
             disabled={!canNext}
             aria-label="Show next testimonials"
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 shadow-sm transition hover:border-[var(--color-brand-pink)]/40 hover:bg-pink-50/80 hover:text-[var(--color-brand-pink)] disabled:pointer-events-none disabled:opacity-35"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 shadow-sm transition hover:border-[var(--color-brand-blue)]/40 hover:bg-sky-50/80 hover:text-[var(--color-brand-blue)] disabled:pointer-events-none disabled:opacity-35"
           >
             <ChevronRight className="h-5 w-5" strokeWidth={2.25} aria-hidden />
           </button>

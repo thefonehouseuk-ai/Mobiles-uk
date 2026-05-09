@@ -31,7 +31,7 @@ export function WhyChooseUs() {
   return (
     <MotionSection className="mx-auto max-w-6xl px-3 py-12 sm:px-6 sm:py-16 md:py-20">
       <div className="mx-auto max-w-2xl text-center">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-brand-pink)]">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-brand-blue)]">
           Why choose us
         </p>
         <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl md:text-4xl">
@@ -54,7 +54,7 @@ export function WhyChooseUs() {
             transition={{ delay: i * 0.08, duration: 0.45 }}
             className="fh-card glow-ring relative overflow-hidden p-6"
           >
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--color-brand-pink)]/12 to-pink-100/80 text-[var(--color-brand-pink)] ring-1 ring-[var(--color-brand-pink)]/15">
+            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--color-brand-blue)]/12 to-sky-100/80 text-[var(--color-brand-blue)] ring-1 ring-[var(--color-brand-blue)]/15">
               <Icon className="h-6 w-6" strokeWidth={1.65} aria-hidden />
             </div>
             <h3 className="mt-4 text-lg font-semibold text-slate-900">

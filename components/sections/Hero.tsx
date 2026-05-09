@@ -26,7 +26,7 @@ export function Hero() {
 
   return (
     <section ref={ref} className="relative isolate">
-      <div className="relative overflow-hidden bg-[var(--color-brand-pink)] px-4 pb-12 pt-6 text-white sm:px-6 sm:pb-16 sm:pt-9">
+      <div className="relative overflow-hidden bg-[var(--color-brand-blue)] px-4 pb-12 pt-6 text-white sm:px-6 sm:pb-16 sm:pt-9">
         <div
           className="pointer-events-none absolute inset-0 opacity-30"
           aria-hidden
@@ -116,7 +116,7 @@ export function Hero() {
                 term: (
                   <span className="inline-flex items-center justify-center gap-1">
                     <MapPin
-                      className="h-[1em] w-[1em] text-[var(--color-brand-pink)]"
+                      className="h-[1em] w-[1em] text-[var(--color-brand-blue)]"
                       strokeWidth={2.25}
                       aria-hidden
                     />
@@ -130,7 +130,7 @@ export function Hero() {
                 term: (
                   <span className="inline-flex items-center justify-center gap-1">
                     <PoundSterling
-                      className="h-[1em] w-[1em] text-[var(--color-brand-pink)]"
+                      className="h-[1em] w-[1em] text-[var(--color-brand-blue)]"
                       strokeWidth={2.25}
                       aria-hidden
                     />

@@ -14,7 +14,7 @@ const inputClass = (err?: string) =>
     "min-h-12 w-full rounded-xl border bg-white px-4 py-3 text-base text-slate-900 outline-none transition-[border,box-shadow] placeholder:text-slate-400 sm:min-h-0 sm:text-sm",
     err
       ? "border-rose-400 focus:border-rose-500"
-      : "border-slate-300 focus:border-[var(--color-brand-pink)] focus:shadow-[0_0_0_3px_rgba(228,0,127,0.18)]",
+      : "border-slate-300 focus:border-[var(--color-brand-blue)] focus:shadow-[0_0_0_3px_rgba(228,0,127,0.18)]",
   );
 
 export function LeadForm() {
@@ -34,11 +34,11 @@ export function LeadForm() {
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className="glass-panel glow-ring relative overflow-hidden p-4 sm:p-8"
     >
-      <div className="pointer-events-none absolute -right-20 -top-20 h-52 w-52 rounded-full bg-pink-200/40 blur-3xl" />
-      <div className="pointer-events-none absolute -bottom-16 -left-12 h-44 w-44 rounded-full bg-[var(--color-brand-pink)]/10 blur-3xl" />
+      <div className="pointer-events-none absolute -right-20 -top-20 h-52 w-52 rounded-full bg-sky-200/40 blur-3xl" />
+      <div className="pointer-events-none absolute -bottom-16 -left-12 h-44 w-44 rounded-full bg-[var(--color-brand-blue)]/10 blur-3xl" />
 
       <div className="relative">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-brand-pink)]">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-brand-blue)]">
           Deal enquiry
         </p>
         <h2 className="mt-2 text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl md:text-3xl">
@@ -145,14 +145,14 @@ export function LeadForm() {
                   className={cn(
                     "flex min-h-11 cursor-pointer touch-manipulation items-center gap-3 rounded-xl border px-3 py-3 text-sm transition-colors sm:min-h-0",
                     form.watch("condition") === opt.id
-                      ? "border-[var(--color-brand-pink)] bg-pink-50 text-slate-900 ring-1 ring-[var(--color-brand-pink)]/25"
+                      ? "border-[var(--color-brand-blue)] bg-sky-50 text-slate-900 ring-1 ring-[var(--color-brand-blue)]/25"
                       : "border-slate-200 bg-white text-slate-700 hover:border-slate-300",
                   )}
                 >
                   <input
                     type="radio"
                     value={opt.id}
-                    className="accent-[var(--color-brand-pink)]"
+                    className="accent-[var(--color-brand-blue)]"
                     {...register("condition")}
                   />
                   {opt.label}
@@ -189,7 +189,7 @@ export function LeadForm() {
               never sell your data. Read our{" "}
               <Link
                 href="/privacy-policy"
-                className="font-medium text-[var(--color-brand-pink)] hover:underline"
+                className="font-medium text-[var(--color-brand-blue)] hover:underline"
               >
                 Privacy Policy
               </Link>

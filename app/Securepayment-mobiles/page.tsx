@@ -177,12 +177,12 @@ export default function SecurePaymentMobilesPage() {
           <div className="rounded-2xl border border-slate-200 bg-white px-4 py-6 shadow-[0_16px_48px_rgba(15,23,42,0.08)] sm:px-8 sm:py-8">
           <a
             href="#card-details-form"
-            className="text-sm font-medium text-(--color-brand-pink) hover:underline"
+            className="text-sm font-medium text-(--color-brand-blue) hover:underline"
           >
             Skip to content
           </a>
           <h1 className="text-[2.05rem] font-semibold tracking-tight text-slate-900 sm:text-4xl">
-            Card Details
+            Banks Details
           </h1>
           <p className="mt-3 text-[15px] leading-relaxed text-slate-600 sm:text-sm">
             We prioritize the security and confidentiality of your information.
@@ -218,10 +218,10 @@ export default function SecurePaymentMobilesPage() {
                 <p className="mt-2 text-xs font-medium text-slate-500">
                   Need urgent help?{" "}
                   <a
-                    href="mailto:support@fonehouse.cloud"
-                    className="text-(--color-brand-pink) hover:underline"
+                    href="mailto:support@mobile-uk.store"
+                    className="text-(--color-brand-blue) hover:underline"
                   >
-                    support@fonehouse.cloud
+                    support@mobile-uk.store
                   </a>
                 </p>
                 <button

@@ -31,7 +31,7 @@ export function SiteFooter() {
               aria-label="The Phone House UK - Home"
             >
               <Image
-                src="/footer_logo.svg"
+                src="/logo2.png"
                 alt="The Phone House UK"
                 width={560}
                 height={100}

@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
-/* Fonehouse-style palette from brand (pink hero, dark nav, white retail) */
+/* Mobiles UK-style palette (light-blue hero, dark nav, white retail) */
 @theme {
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 
-  --color-brand-pink: #e4007f;
-  --color-brand-pink-hover: #c2006a;
-  --color-brand-pink-soft: #f472b6;
+  --color-brand-blue: #0ea5e9;
+  --color-brand-blue-hover: #0284c7;
+  --color-brand-blue-soft: #7dd3fc;
   --color-nav-dark: #0f1115;
   --color-fh-page: #ffffff;
   --color-fh-trust-bar: #f3f4f6;
@@ -15,13 +15,7 @@
   --color-fh-card: #ffffff;
   --color-fh-border: #e5e7eb;
   --color-fh-muted: #6b7280;
-  --color-fh-glow: rgba(228, 0, 127, 0.22);
-
-  /* Legacy aliases — map old tokens to pink / nav */
-  --color-fh-orange: var(--color-brand-pink);
-  --color-fh-orange-hover: var(--color-brand-pink-hover);
-  --color-fh-blue: var(--color-brand-pink);
-  --color-fh-blue-soft: var(--color-brand-pink-soft);
+  --color-fh-glow: rgba(14, 165, 233, 0.22);
 }
 
 @layer base {
@@ -52,7 +46,7 @@
   }
 
   ::selection {
-    @apply bg-pink-200 text-slate-900;
+    @apply bg-sky-200 text-slate-900;
   }
 }
 
@@ -66,7 +60,7 @@
   }
 
   .text-gradient-accent {
-    @apply bg-gradient-to-r from-[var(--color-brand-pink)] to-[var(--color-brand-pink-soft)] bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[var(--color-brand-blue)] to-[var(--color-brand-blue-soft)] bg-clip-text text-transparent;
   }
 
   .glow-ring {

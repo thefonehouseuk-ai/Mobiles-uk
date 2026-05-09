@@ -34,7 +34,7 @@ export function TrustBadges() {
               <p className="text-sm font-semibold text-slate-900">{b.label}</p>
               <p className="text-xs text-slate-500">{b.sub}</p>
             </div>
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-brand-pink)]/18 to-pink-100/70 text-[var(--color-brand-pink)] ring-1 ring-slate-200/90">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-brand-blue)]/18 to-sky-100/70 text-[var(--color-brand-blue)] ring-1 ring-slate-200/90">
               <Icon className="h-5 w-5" strokeWidth={1.65} aria-hidden />
             </div>
           </motion.div>

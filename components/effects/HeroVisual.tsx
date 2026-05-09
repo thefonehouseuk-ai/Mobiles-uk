@@ -2,7 +2,7 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 
-/** Lightweight hero art (no WebGL) — phones + deals motif on brand pink */
+/** Lightweight hero art (no WebGL) — phones + deals motif on brand blue */
 export function HeroVisual() {
   const reduceMotion = useReducedMotion();
 
@@ -61,7 +61,7 @@ export function HeroVisual() {
         <motion.div className="relative" {...(reduceMotion ? {} : drift(0.2, -14))}>
           <div className="absolute -inset-3 rounded-[2rem] bg-gradient-to-br from-white/25 via-transparent to-black/10 blur-md" />
           <div className="relative flex h-[min(52vw,260px)] w-[min(34vw,170px)] flex-col rounded-[1.75rem] border-2 border-white/50 bg-gradient-to-b from-white/95 to-white/80 p-2 shadow-[0_28px_60px_rgba(15,17,21,0.28)] sm:h-72 sm:w-[11.25rem] sm:rounded-[2rem] sm:p-2.5">
-            <div className="relative flex-1 overflow-hidden rounded-[1.25rem] bg-gradient-to-br from-[var(--color-brand-pink)] via-[#ff4fa3] to-[#b80062] sm:rounded-[1.4rem]">
+            <div className="relative flex-1 overflow-hidden rounded-[1.25rem] bg-gradient-to-br from-[var(--color-brand-blue)] via-[#38bdf8] to-[#0369a1] sm:rounded-[1.4rem]">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.35),transparent_55%)]" />
               <div className="absolute inset-x-0 top-0 h-8 bg-gradient-to-b from-black/10 to-transparent sm:h-9" />
               <div className="relative flex h-full flex-col items-center justify-center px-2 pb-6 pt-4 text-white">
@@ -88,7 +88,7 @@ export function HeroVisual() {
           </motion.div>
 
           <motion.div
-            className="absolute -left-1 bottom-[22%] z-20 -translate-x-1/3 rounded-xl border border-white/50 bg-white/95 px-2 py-1.5 text-[10px] font-semibold text-[var(--color-brand-pink)] shadow-md sm:bottom-[24%] sm:px-2.5 sm:text-[11px]"
+            className="absolute -left-1 bottom-[22%] z-20 -translate-x-1/3 rounded-xl border border-white/50 bg-white/95 px-2 py-1.5 text-[10px] font-semibold text-[var(--color-brand-blue)] shadow-md sm:bottom-[24%] sm:px-2.5 sm:text-[11px]"
             initial={reduceMotion ? false : { opacity: 0, x: -6 }}
             animate={reduceMotion ? false : { opacity: 1, x: 0 }}
             transition={{ delay: 0.45, duration: 0.4 }}

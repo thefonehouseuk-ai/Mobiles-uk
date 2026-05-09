@@ -19,7 +19,7 @@ export default function ThankYouPage() {
       <footer className="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-600">
         <Link
           href="/"
-          className="font-medium text-[var(--color-brand-pink)] hover:underline"
+          className="font-medium text-[var(--color-brand-blue)] hover:underline"
         >
           ← Back to home
         </Link>

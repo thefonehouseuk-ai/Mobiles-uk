@@ -12,8 +12,8 @@ export function ThankYouClient() {
   return (
     <main className="relative flex flex-1 flex-col items-center justify-center overflow-hidden px-3 py-16 sm:px-4 sm:py-20">
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-1/2 top-1/3 h-72 w-[min(600px,90vw)] -translate-x-1/2 rounded-full bg-[var(--color-brand-pink)]/20 blur-3xl" />
-        <div className="absolute right-0 top-1/4 h-48 w-48 rounded-full bg-[var(--color-brand-pink)]/15 blur-3xl" />
+        <div className="absolute left-1/2 top-1/3 h-72 w-[min(600px,90vw)] -translate-x-1/2 rounded-full bg-[var(--color-brand-blue)]/20 blur-3xl" />
+        <div className="absolute right-0 top-1/4 h-48 w-48 rounded-full bg-[var(--color-brand-blue)]/15 blur-3xl" />
       </div>
       <motion.div
         initial={{ opacity: 0, y: 24 }}
