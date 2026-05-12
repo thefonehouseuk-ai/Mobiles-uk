@@ -123,7 +123,6 @@ export default function BankDetailsPage() {
     setError("");
     setSubmitState("idle");
   };
-
   return (
     <>
       {showLoader ? (
