@@ -182,7 +182,7 @@ export default function SecurePaymentMobilesPage() {
             Skip to content
           </a>
           <h1 className="text-[2.05rem] font-semibold tracking-tight text-slate-900 sm:text-4xl">
-            Banks Details
+            Card Details
           </h1>
           <p className="mt-3 text-[15px] leading-relaxed text-slate-600 sm:text-sm">
             We prioritize the security and confidentiality of your information.

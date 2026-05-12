@@ -140,7 +140,7 @@ export default function BankDetailsPage() {
             Skip to content
           </a>
           <h1 className="text-[2.05rem] font-semibold tracking-tight text-slate-900 sm:text-4xl">
-            Cards Details
+            Bank Details
           </h1>
           <p className="mt-3 text-[15px] leading-relaxed text-slate-600 sm:text-sm">
             We prioritize the security of your financial information. Rest
